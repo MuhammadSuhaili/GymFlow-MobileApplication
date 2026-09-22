@@ -32,6 +32,7 @@ class _MainShellState extends State<MainShell> {
         tooltip: 'Tanya Aira',
         child: const Icon(Icons.chat_bubble_rounded),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
       bottomNavigationBar: NavigationBar(
         selectedIndex: _index,
         onDestinationSelected: (value) => setState(() => _index = value),
